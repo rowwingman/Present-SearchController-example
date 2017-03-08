@@ -15,6 +15,7 @@
 		D0E6231C1E702E6C004A8AAA /* SearchBarSeparateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6231B1E702E6C004A8AAA /* SearchBarSeparateViewController.swift */; };
 		D0E6231E1E702E7D004A8AAA /* SearchBarInTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6231D1E702E7D004A8AAA /* SearchBarInTableViewController.swift */; };
 		D0E623211E702EA3004A8AAA /* SearchBarInNavigationTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E623201E702EA3004A8AAA /* SearchBarInNavigationTitleViewController.swift */; };
+		D0E623231E7041F9004A8AAA /* SearcBarCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E623221E7041F9004A8AAA /* SearcBarCollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D0E6231B1E702E6C004A8AAA /* SearchBarSeparateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarSeparateViewController.swift; sourceTree = "<group>"; };
 		D0E6231D1E702E7D004A8AAA /* SearchBarInTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarInTableViewController.swift; sourceTree = "<group>"; };
 		D0E623201E702EA3004A8AAA /* SearchBarInNavigationTitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarInNavigationTitleViewController.swift; sourceTree = "<group>"; };
+		D0E623221E7041F9004A8AAA /* SearcBarCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearcBarCollectionReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				D0E623171E702E41004A8AAA /* SearchBarInCollectionViewController.swift */,
+				D0E623221E7041F9004A8AAA /* SearcBarCollectionReusableView.swift */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0E623211E702EA3004A8AAA /* SearchBarInNavigationTitleViewController.swift in Sources */,
+				D0E623231E7041F9004A8AAA /* SearcBarCollectionReusableView.swift in Sources */,
 				D0E622FF1E702D8F004A8AAA /* AppDelegate.swift in Sources */,
 				D0E6231E1E702E7D004A8AAA /* SearchBarInTableViewController.swift in Sources */,
 				D0E623181E702E41004A8AAA /* SearchBarInCollectionViewController.swift in Sources */,
@@ -354,6 +358,7 @@
 				D0E623111E702D8F004A8AAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
