@@ -11,9 +11,9 @@ import UIKit
 class SearchBarInTableViewController: UIViewController {
 
     // MARK: - UI elements
-    let searchController: UISearchController = {
+    lazy var searchController: UISearchController = {
         let searchController = UISearchController(searchResultsController: nil)
-//        searchController.searchResultsUpdater = resultsViewController
+//        searchController.searchResultsUpdater = self
 //        searchController.delegate = self
 //        searchController.searchBar.delegate = self
         

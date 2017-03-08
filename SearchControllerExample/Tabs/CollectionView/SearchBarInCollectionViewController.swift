@@ -10,6 +10,16 @@ import UIKit
 
 class SearchBarInCollectionViewController: UIViewController {
 
+    // MARK: - UI elements
+    lazy var searchController: UISearchController = {
+        let searchController = UISearchController(searchResultsController: nil)
+//        searchController.searchResultsUpdater = self
+//        searchController.delegate = self
+//        searchController.searchBar.delegate = self
+
+        return searchController
+    }()
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
